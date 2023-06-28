@@ -1,0 +1,172 @@
+﻿.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+ .button-container button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0A6EBD;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 7px #999;
+}
+
+    .button:hover {
+        background-color: #5A96E3;
+    }
+
+    .button:active {
+        box-shadow: 0 2px #666;
+        transform: translateY(4px);
+    }
+
+.buttonTruncate {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #CD1818;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 7px #999;
+}
+    .buttonTruncate:hover {
+        background-color: #FF0000;
+    }
+    .buttonTruncate:active {
+        box-shadow: 0 2px #666;
+        transform: translateY(4px);
+    }
+.custom-card {
+    height: 120px;
+    margin-top: 15px;
+    padding: 25px;
+    border: 1px inset black;
+}
+#excelData {
+    display: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #84D2C5;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+#buttonBox {
+    display: none;
+    max-width: 1200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #84D2C5;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tableFixHead {
+    overflow-y: auto; 
+    height: 600px; 
+    z-index:2;
+}
+.tableFixHead th {
+    position: sticky; 
+    top: 0px; 
+    }
+    .tableFixHead td:first-child {
+        position: sticky;
+        top: 0px;
+    }
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background: #eee;
+}
+td:first-child,th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background-color: #eee;
+}
+th:first-child{
+    z-index:2;
+}
+#insertForm {
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    overflow-y: scroll;
+    max-height: 830px;
+    position: absolute;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    top: 127px;
+    left: 350px;
+}
+    #insertForm::-webkit-scrollbar {
+        display: none;
+    }
+#insertForm {
+    -ms-overflow-style: none; 
+}
+  #insertForm h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+    #insertForm label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    #insertForm input[type="text"],
+    #insertForm select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    #insertForm button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #4caf50;
+        color: #fff;
+        cursor: pointer;
+    }
+        #insertForm button.btn-danger {
+            background-color: #f44336;
+        }
+.container {
+position:relative;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
